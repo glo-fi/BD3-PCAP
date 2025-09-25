@@ -87,13 +87,13 @@ config = {
 
 ## Evaluation Metrics
 
-The system provides comprehensive evaluation:
+The system provides some evaluation:
 
 ### Distribution Metrics
 - **KS Test**
 - **Earth Mover's Distance**
 - **Mean and Standard Deviation Differences**
-- **Distance to Real Data*
+- **Distance to Real Data**
 
 ### Correlation Metrics
 - **Correlation Matrix Comparison**

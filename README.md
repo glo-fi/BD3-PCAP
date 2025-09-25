@@ -166,7 +166,7 @@ print(f"Generated {len(generated_flows)} flows with shape {generated_flows.shape
 ## Future Extensions
 
 - **Ingest Network Streams Directly**: Implement a PCAP processing pipeline that calculates statistics before training/evaluating the model
-- **Generate PCAPs**: Generate (truncated) PCAPs directly, similar to FlowDiffusion paper. It is unlikely that we will be able to generate entire network reconstrcutions, but single flows of ~1000 packets may be achievable.
+- **Generate PCAPs**: Generate (truncated) PCAPs directly, similar to NetDiffusion paper. It is unlikely that we will be able to generate entire network reconstrcutions, but single flows of ~1000 packets may be achievable.
 - **Better Metrics**: Expand suite of metrics to include, e.g., $\alpha$-precision, $\beta$-recall, authenticity. Furthermore, some domain specific metrics will probably be needed (e.g., protocol compliance)
 - **Conditional Generation**: Generate flows conditioned on protocols or network conditions
 - **Advanced Tokenisation**: Learned embeddings instead of binning

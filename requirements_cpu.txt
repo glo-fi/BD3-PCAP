@@ -1,0 +1,8 @@
+# Lightweight CPU-only requirements for testing
+torch>=2.0.0+cpu --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+tqdm>=4.64.0

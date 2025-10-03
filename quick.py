@@ -59,7 +59,7 @@ def main():
     print("=" * 60)
     
     # Create configuration
-    config = create_config()
+    config = create_quick_config()
     print(f"Configuration: {json.dumps(config, indent=2)}")
     
     # Create output directory
